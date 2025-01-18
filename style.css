@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@font-face {
+  font-family: 'Permanent Marker', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+html, body {
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 20px;
+	background: #263849;
+  color: #fff;
+}
+h1 {
+  font-family: 'Permanent Marker', sans-serif;
+  font-size: 52px;
+  text-transform: uppercase;
+  color: #f6885e;
+}
+.first-color {
+	background: #90f6d7;
+}
+.second-color {
+	background: #35bcbf;
+}
+.third-color {
+	background: #41506b;
+}
+.fourth-color {
+	background: #263849;
+}
+.select2-container .select2-selection--single {
+  padding: 10px;
+  height: auto;
+}
+.select2-results {
+  color: black;
+}
+.nav-logo {
+  width: 400px;
+}
+.primary_button, #wallet_address {
+	background: #35bcbf;
+	color: #263849;
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 4px auto;
+}
+.primary_button {
+  width: 20vw;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 28px;
+  font-weight: 900;
+}
+.primary_button:hover {
+	background: #90f6d7;
+	color: #41506b;
+}
+.download_image {
+  background-color: rgba(0, 0, 0, 0.3);
+	color: #fff;
+  width: 30px;
+  font-size: 12px;
+  padding: 6px;
+  text-align: center;
+  border-radius: 10px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+.download_image:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+#wallet_address {
+  width: 40vw;
+}
+.nft_item:nth-child(1) {
+  display: none;
+}
+.nft_item {
+  display: inline-block;
+  margin: 6px;
+  width: 160px;
+  height: 180px;
+  background-clip: content-box;
+  background-size: cover;
+  position: relative;
+}
+.nft_item .nft_name {
+  font-size: 12px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 6px;
+  text-align: center;
+}
+.nft_image {
+}
+.nft_image img {
+  width: 160px;
+  height: 180px;
+  object-fit: cover;
+}
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 990px) {
+}
